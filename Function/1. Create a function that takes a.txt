@@ -1,0 +1,154 @@
+// 1. Create a function that takes a number as an argument and returns the square of the number using an arrow function.
+
+//   let num=(a)=>{
+//     let sum=a*a
+//     return sum
+// }
+// console.log(num(2))
+ 
+ // 2. Write a simple function that accepts two numbers and returns their sum
+
+// function add(a, b) {
+//     return a + b;
+// }
+// console.log(add(5, 3)); 
+
+
+
+// 4. Create an IIFE (Immediately Invoked Function Expression) that logs the message "I am an IIFE!" to the console.
+
+// (function(){
+//      let x="I am an IIFE!"
+//      console.log(x)
+//  })()
+
+// 5. Write a recursive function that calculates the factorial of a given number.
+
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     }
+//     return n * factorial(n - 1);
+// }
+// console.log(factorial(5));  
+
+
+
+// 6. Write a program that uses the ternary operator to check if a number is even or odd.
+
+// const checkEvenOdd = (num) => num % 2 === 0 ? "Even" : "Odd";
+// const number = 7;  
+// console.log(`The number ${number} is ${checkEvenOdd(number)}.`);
+
+
+
+// 7. Write a function that demonstrates the difference between block scope and function scope by declaring variables with let, var, and const inside a loop.
+
+// let
+// function num(){
+//     let a=10
+//     {
+//         console.log(a)
+//     }
+// }
+// num()
+
+// var
+// function num(){
+//     {
+//         var a=10
+//         console.log(a)
+//     }
+// }
+// num()
+
+// const
+// function num(){
+//     {
+//         const a=20
+//         console.log(a)
+//     }
+// }
+// num()
+
+// 8. What will be the output of the following code and why?
+// var a = 10;
+// function test() {
+//     console.log(a);
+//     var a = 20;
+// }
+// test();
+
+// output 
+// undefined
+// var block scope me hai access karta ha
+
+
+// 12. Explain what will be logged in the following code:
+// function outer() {
+//     let a = 10;
+//     function inner() {
+//         console.log(a);
+//     }
+//     inner();
+// }
+// outer();
+// let local scope function ke  shat  access karlet ha 
+
+
+// 13. What will be the output of the following code and why?
+// if (true) {
+//     var x = 5;
+// }
+// console.log(x);
+// var block scope me hai 
+
+
+
+// 14. What will be the output of the following code and why?
+// if (true) {
+//     let y = 10;
+// }
+// console.log(y);
+// let local se access nhi kar 
+
+
+
+// 17. Write a function that takes two numbers and performs addition, subtraction, multiplication, and division using arithmetic operators and returns the results as an object.
+
+// function  Operations(a, b) {
+//     return {
+//         sum: a + b,
+//         sub: a - b,
+//         mul: a * b,
+//         division: b !== 0 ? a / b : "Cannot divide by zero"
+//     };
+// }
+// console.log( Operations(10, 2));
+ 
+
+// 19. Write a function that takes two numbers and performs addition, subtraction, multiplication, and division using arithmetic operators and returns the results as an object.
+
+// function  Operations(a, b) {
+//     return {
+//         sum: a + b,
+//         sub: a - b,
+//         mul: a * b,
+//         division: b !== 0 ? a / b : "Cannot divide by zero"
+//     };
+// }
+// console.log( Operations(20, 2));
+
+
+// 20. Convert the following traditional function to an arrow function:
+// function greet(name) {
+//     return "Hello " + name;
+// }
+
+//   let greet=(name)=>{
+    
+//     return  "hello "+name
+// }
+// console.log(greet("yashu"))
+
+  
